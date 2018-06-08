@@ -27,4 +27,8 @@ Route::get('detail', function () {
     return view('post.detail');
 });
 
+Route::get('hello', function () {
+    return view('post.hello');
+});
+
 
